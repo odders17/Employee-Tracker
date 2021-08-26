@@ -16,15 +16,15 @@ CREATE TABLE employee (
     REFERENCES employee(id)
 
 );
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Ron", "Paul", 1, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Frederick", "Douglas", 2, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Tulsi", "Gabbard", 4, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Mos", "Def", 3, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Chester", "Bennington", 5, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Seth", "Gerlach", 2, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Gary", "Oldman", 3, 1);
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Harry", "Potter", 1, 1 );
-INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Robert", "Pattinson", 1, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Paul", "Aston", 1, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Jamie", "Aston", 2, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Samuel", "Aston", 2, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Ian", "Aston", 3, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("David", "Parker", 5, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Katie", "Parker", 4, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Ollie", "Watkins", 3, 1);
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Danny", "Ings", 2, 1 );
+INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES ("Robert", "Snodgrass", 2, 1);
 
 
 CREATE TABLE role (
